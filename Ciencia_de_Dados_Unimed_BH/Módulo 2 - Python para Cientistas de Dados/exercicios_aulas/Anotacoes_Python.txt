@@ -1,0 +1,94 @@
+
+Principais anotações
+
+Python
+
+- Guido Van Rossum
+- Nasceu em 1989, para dar continuidade na linguagem ABC
+- 1991, lançamento da 1ª versão pública
+
+
+Linguagem versátil
+- Tipagem dinâmica e forte
+- Multiplataforma e multiparadigma
+- Comunidade gigante e ativa
+- Curva de aprendizado baixa
+
+
+Tipos de Dados
+...
+
+
+Variáveis e constantes
+
+Python não tem constantes
+Convenção: Utilizar nome em maiúsculo para CONSTANTE	
+O padrão de nomes deve ser snake case
+
+
+Conversão de tipos
+...
+
+
+Funções de entrada e saída
+...
+
+
+Identação e blocos
+...
+
+
+Estruturas condicionais
+- if/if ... else/elif
+
+- if aninhado
+
+- if ternário   --> instrução de única linha para situações mais simples
+
+
+Estruturas de repetição
+
+- FOR
+- FOR ...ELSE
+- FOR...IN...RANGE
+
+- WHILE
+- WHILE...ELSE
+  BREAK
+
+*****************************************
+
+Strings
+
+- Eliminando espaços em branco
+
+strip
+lstrip
+rstrip
+
+- Junções e centralização
+
+center(10, "##")
+
+(".", join(variável))
+
+- Interpolação de variáveis
+
+- old style: %s, %d, %f
+- método format
+- f-string
+
+
+- Fatiamento de string
+
+
+- String múltiplas linhas
+
+
+
+
+
+
+
+
+

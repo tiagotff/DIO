@@ -1,0 +1,182 @@
+
+Principais anotações
+
+
+GUI: Graphical User Interface
+CLI: Command Line Interface
+
+
+- Mudar de pastas
+- Listar as pastas
+- Criar pastas/arquivos
+- Deletar pastas/arquivos
+
+
+*************************************************************************************************
+*************************************************************************************************
+
+>>> Comandos básicos de navegação no terminal
+
+Windows
+  cd
+  cd /: change diretory. Leva para a base do diretório 'C'
+  cd <nome da pasta> Ex.: cd windows
+                          dir
+  cd .. :para retroceder 1 nível
+
+  cls: clear screem
+
+  TAB : autocompleta o comando
+
+  dir: lista as pastas no diretório situado
+
+  mkdir <nome da pasta> Ex.: mkdir workspace5 : make directory. Criar diretório/pasta
+
+  del <nome da pasta> : Ex.: del workspace : vai deletar o que está DENTRO da pasta
+
+  rmdir <nome da pasta> /S /Q: Ex.: rmdir workspace /S /Q : vai deletar o que está dentro da pasta
+
+  echo <texto> > <nome do arquivo.extensão> Ex.: echo hello > hello.txt
+
+
+
+Unix
+  cd
+  cd /: change diretory. Leva para a base do diretório 'C'
+  cd cd <nome da pasta> Ex.: cd etc
+                             ls
+  cd .. :para retroceder 1 nível
+
+  clear : limpar (CONTRL + L)
+
+  TAB : autocompleta o comando
+
+  ls: lista as pastas no diretório situado
+
+  mkdir <nome da pasta> Ex.: mkdir workspace5 : make directory. Criar diretório/pasta
+
+  echo <texto> > <nome do arquivo.extensão> Ex.: echo hello > hello.txt
+
+  rm -rf <nome da pasta> Ex.: rm -rf workspace5 : vai deletar o que está dentro da pasta 'workspace5'
+
+
+*************************************************************************************************
+*************************************************************************************************
+
+>>> Git Bash
+
+openssl sha1 <nome do arquivo.extensão> Ex.: openssl sha1 texto.txt
+
+
+>>> Chaves SSH
+
+Git Bash
+  ssh-keygen -t ed25519 -C <email>
+  yes
+  cat id_ed25519.pub     --> copia a chave pública e vai no GitHub em 'SSH and GPC Keys'
+  |
+  v
+GitHub
+SSH Keys
+chave copiada
+  |
+  v
+Git Bash
+  eval $(ssh-agent -s)
+  ssh-add id_ed25519
+senha, se houver
+
+
+>>> Tokens
+
+GitHub
+Perfil > settings > SSH and GPC Keys > Developer settings > Personal accesss tokes > Generate New token
+Salve o token gerado em local seguro
+Para clone do repositório, utilize o protocolo HTTPS
+
+*************************************************************************************************
+*************************************************************************************************
+
+Comandos Git
+
+  mkdir <nome da pasta>
+  ls
+  cd <nome da pasta>
+
+
+  git init    --> inicializa um repositório no git, dentro da pasta
+  ls
+  ls -a       --> mostra a pasta '.git', que é a pasta gerencial do git
+
+
+  git config --global user.email "<email>"
+  git config --global user.name <your name>
+
+
+  git add *
+  git add .                            --> move o arquivo do WORKING DIRECTORY p/ STAGING AREA
+  git add <nome do arquivo+extensão>
+
+
+  git commit -m "<mensagem>"           --> move o arquivo da STAGING AREA p/ LOCAL REPOSITORY
+
+  mkdir receitas
+  ls
+  mv strognoff.md ./receitas/          --> movendo arquivo 'strognoff.md' para a pasta 'receitas'
+
+
+GitHub
+
+Algumas configurações para quando o e-mail for diferente
+
+  git congig --list
+
+  git config --global --unset user.email
+  git config --global --unset user.nickname
+
+  git config --global user.email "<your email>"
+  git config --global user.nickname <your name>
+
+  git congig --list
+
+
+Após criar repositório no GitHub
+
+  git remote add origin git@github.com:tiagotff/teste_DIO.git
+  git remote -v
+  git status
+  git push origin master
+
+
+*************************************************************************************************
+*************************************************************************************************
+
+
+*********
+Overview
+*********
+
+  git status
+
+  git clone https://github.com/tiagotff/dio-desafio1-github.git
+
+  ls
+
+  cd dio-desafio1-github
+
+  git checkout -b <nome da sua branch, se houver. se não houver branch, pular esse comando>
+
+  git add . 
+
+  git status
+
+  git commit -m "Inclusão das anotações do curso de Git/GitHub"
+
+  git push origin <main ou nome da sua branch, se houver>
+
+***********
+*** Fim ***
+***********
+
+*************************************************************************************************
+*************************************************************************************************
