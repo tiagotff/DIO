@@ -76,16 +76,10 @@ pip install -i https://test.pypi.org/simple/ image-processing-test1
 python -m twine upload --repository-url https://upload.pypi.org/legacy/ dist/*
 ```
 #### 6.4. Instale o pacote publicado:
-```bash
-pip install image-processing-test1
-```
-
-## Instalação
-
 Utilize o gerenciador de pacotes [pip](https://pip.pypa.io/en/stable/) para instalar image_processing-test1
 
 ```bash
-pip install image_processing-test1
+pip install image-processing-test1
 ```
 
 ## Autor
