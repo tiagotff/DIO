@@ -23,7 +23,7 @@ Fonte: Karina Kato - Machine Learning Engineer/Machine Learning Tech Lead - Take
 ### 1. Criar um projeto
 Você pode realizar um fork deste projeto para utilizá-lo como template.
 
-### 2. Edição dos arquios "setup.py", "requirements.txt" e "README.md"
+### 2. Editar os arquios "setup.py", "requirements.txt" e "README.md"
 Após criado o projeto e editado os arquivos "setup.py", "requirements.txt" e "README.md" é necessário gerar as distribuições "wheel" e "sdist".
 Para isso, você deve:
 
@@ -48,7 +48,7 @@ pip install wheel
 ``` bash
 python setup.py sdist bdist_wheel
 ```
-### 6. Publicação do pacote
+### 6. Publicar pacote
 Realizada essas etapas com êxito, o próximo passo é a publicação do pacote.
 Você precisa ter uma conta no Test Pypi e no Pypi para realizar essa etapa. A seguir os links:
 
