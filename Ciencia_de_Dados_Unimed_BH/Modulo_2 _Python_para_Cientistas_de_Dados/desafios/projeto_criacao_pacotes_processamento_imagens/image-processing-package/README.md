@@ -20,14 +20,16 @@ Description: The package image_processing-test1 is used to:
 Fonte: Karina Kato - Machine Learning Engineer/Machine Learning Tech Lead - Take
 
 ## Passo a passo
+### 1. Criar um projeto
 Você pode realizar um fork deste projeto para utilizá-lo como template.
 
-Após criado o projeto e editado os arquios "setup.py", "requirements.txt" e "README.md" é necessário gerar as distribuições "wheel" e "sdist".
+### 2. Edição dos arquios "setup.py", "requirements.txt" e "README.md"
+Após criado o projeto e editado os arquivos "setup.py", "requirements.txt" e "README.md" é necessário gerar as distribuições "wheel" e "sdist".
 Para isso, você deve:
 
-- Acessar a raiz do seu projeto
+### 3. Acessar a raiz do seu projeto
 
-- Aplicar os comandos de instalação
+### 4. Aplicar os comandos de instalação
 ``` bash
 python -m pip install --upgrade pip
 ```
@@ -40,30 +42,31 @@ python -m pip install --user setuptools
 ``` bash
 pip install wheel
 ````
-- Aplicar o comando para criar a distribuição
+
+### 5. Aplicar o comando para criar a distribuição
 ``` bash
 python setup.py sdist bdist_wheel
 ```
-
+### 6. Publicação do pacote
 Realizada essas etapas com êxito, o próximo passo é a publicação do pacote.
 Você precisa ter uma conta no Test Pypi e no Pypi para realizar essa etapa. A seguir os links:
 
 https://test.pypi.org/account/register/
 https://pypi.org/account/register/
 
-Primeiro, publique no Teste Pypi, aplicando o seguinte comando:
+#### 6.1. Primeiro, publique no Teste Pypi, aplicando o seguinte comando:
 ``` bash
 python -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*
 ```
-Agora, instale o pacote de teste:
+#### 6.2. Agora, instale o pacote de teste:
 ```bash
 pip install –-index-url https://test.pypi.org/simple/ image-processing
 ```
-Com tudo testado, é hora de publicar o pacote no Pypi:
+#### 6.3. Com tudo testado, é hora de publicar o pacote no Pypi:
 ```bash
 python -m twine upload --repository-url https://upload.pypi.org/legacy/ dist/*
 ```
-Instale o pacote publicado:
+#### 6.4. Instale o pacote publicado:
 ```bash
 python -m pip install package_name
 ```
