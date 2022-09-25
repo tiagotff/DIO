@@ -14,10 +14,13 @@ The package image_processing-test1 is used to:
 		- Plot result
 		- Plot histogram
 
-## Passo a passo
+## Overview
 
 ![image](https://user-images.githubusercontent.com/53586684/192152925-fc3e9713-f07a-4bf9-befb-828fd46e7c0d.png)
 Fonte: Karina Kato - Machine Learning Engineer/Machine Learning Tech Lead - Take
+
+## Passo a passo
+Você pode realizar um fork deste projeto para utilizá-lo como template.
 
 Após criado o projeto e editado os arquios "setup.py", "requirements.txt" e "README.md" é necessário gerar as distribuições "wheel" e "sdist".
 Para isso, você deve:
