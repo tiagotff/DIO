@@ -16,8 +16,8 @@ A partir de um conjunto de dados público do comércio eletrônico brasileiro de
 
 ## Materiais produzidos:
 
-- Cópia do código desenvolvido está disponível aqui.
+- Cópia do código desenvolvido: https://colab.research.google.com/drive/14495ZkKsSjJSpLn-GU4-4XZzvMeMWubo?usp=sharing#scrollTo=Xvz5PkLVqLiw
 
-- Publicação no kaggle relacionada está disponível aqui.
+- Publicação no Kaggle: https://www.kaggle.com/code/tiagoff/ci-ncia-de-dados-no-e-commerce-brasileiro
 
-- Dashboard está disponível aqui.
+- Dashboard: https://datastudio.google.com/reporting/d930c939-6c2e-4106-a3bb-e2279d4aaaf9/page/stx2C
