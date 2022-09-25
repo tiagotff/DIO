@@ -57,6 +57,7 @@ Realizada as etapas anteriores com êxito, o próximo passo é a publicação do
 Você precisa ter uma conta no Test Pypi e no Pypi para realizar essa etapa. A seguir os links:
 
 https://test.pypi.org/account/register/
+
 https://pypi.org/account/register/
 
 #### 6.1. Primeiro, publique no Teste Pypi, aplicando o seguinte comando:
