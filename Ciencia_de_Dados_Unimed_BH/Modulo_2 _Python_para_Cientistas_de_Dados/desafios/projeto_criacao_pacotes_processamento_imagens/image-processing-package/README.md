@@ -1,18 +1,17 @@
 # Projeto: Criação de pacote de Processamento de Imagens
 
-Description: The package image_processing-test1 is used to:
+Descição: O pacote image_processing-test1 é usado para:
 >
 	Processing:
-		- Histogram matching
-		- Structural similarity
-		- Resize image
+		- Correspondência de histograma
+		- Semelhança estrutural
+		- Redimensionar imagem
 	Utils:
-		- Read image
-		- Save image
-		- Plot image
-		- Plot result
-		- Plot histogram
-
+		- Ler imagem
+		- Salvar imagem
+		- Plotar imagem
+		- Resultado da trama
+		- Plotar histograma
 ## Overview
 
 ![image](https://user-images.githubusercontent.com/53586684/192152925-fc3e9713-f07a-4bf9-befb-828fd46e7c0d.png)
@@ -72,20 +71,19 @@ python -m twine upload --repository-url https://upload.pypi.org/legacy/ dist/*
 python -m pip install package_name
 ```
 
-## Installation
+## Instalação
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install image_processing-test1
+Utilize o gerenciador de pacotes [pip](https://pip.pypa.io/en/stable/) para instalar image_processing-test1
 
 ```bash
 pip install image_processing-test1
 ```
 
-## Author
+## Autor
 
+Projeto original: by Karina Kato
 
-Original project: by Karina Kato
+Este projeto: by Tiago de Freitas Faustino
 
-This project: by Tiago de Freitas Faustino
-
-## License
+## Licença
 [MIT](https://choosealicense.com/licenses/mit/)
