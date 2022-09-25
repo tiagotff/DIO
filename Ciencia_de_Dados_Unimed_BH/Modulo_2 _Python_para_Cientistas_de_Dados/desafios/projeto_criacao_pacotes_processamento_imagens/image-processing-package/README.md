@@ -85,6 +85,7 @@ pip install image-processing-test1
 ## Autor
 
 Projeto original: by Karina Kato
+
 Este exercício: by Tiago de Freitas Faustino
 
 Este projeto tem o objetivo paenas de exercitar a criação publicação e utilização de pacotes.
