@@ -77,7 +77,7 @@ python -m twine upload --repository-url https://upload.pypi.org/legacy/ dist/*
 ```
 #### 6.4. Instale o pacote publicado:
 ```bash
-python -m pip install image-processing-test1
+pip install image-processing-test1
 ```
 
 ## Instalação
