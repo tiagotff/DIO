@@ -16,6 +16,7 @@ Description: The package image_processing-test1 is used to:
 ## Overview
 
 ![image](https://user-images.githubusercontent.com/53586684/192152925-fc3e9713-f07a-4bf9-befb-828fd46e7c0d.png)
+
 Fonte: Karina Kato - Machine Learning Engineer/Machine Learning Tech Lead - Take
 
 ## Passo a passo
