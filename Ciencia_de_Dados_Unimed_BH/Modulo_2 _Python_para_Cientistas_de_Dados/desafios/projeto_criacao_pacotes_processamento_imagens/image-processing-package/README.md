@@ -20,7 +20,7 @@ Fonte: Karina Kato - Machine Learning Engineer/Machine Learning Tech Lead - Take
 
 ## Passo a passo
 ### 1. Criar um projeto
-Você pode realizar um fork deste projeto para utilizá-lo como template.
+Você pode realizar um fork deste projeto para utilizá-lo como modelo. Ele já segue a organização da imagem apresentada acima.
 
 ### 2. Editar os arquivos "setup.py", "requirements.txt" e "README.md"
 Após criado o projeto e editado os arquivos "setup.py", "requirements.txt" e "README.md" é necessário gerar as distribuições "wheel" e "sdist".
