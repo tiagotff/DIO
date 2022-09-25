@@ -88,7 +88,7 @@ Projeto original: by Karina Kato
 
 Este exercício: by Tiago de Freitas Faustino
 
-Este projeto tem o objetivo paenas de exercitar a criação publicação e utilização de pacotes.
+Este projeto tem o objetivo apenas de exercitar a criação publicação e utilização de pacotes.
 Para este fim, como ainda não tenho um projeto próprio, foram realizados apenas pequenos 
 ajustes do projeto original de Karina Kato.
 
