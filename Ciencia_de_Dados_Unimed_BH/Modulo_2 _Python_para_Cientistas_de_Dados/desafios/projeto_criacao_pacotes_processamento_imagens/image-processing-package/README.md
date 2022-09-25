@@ -47,6 +47,8 @@ pip install wheel
 ````
 
 ### 5. Aplicar o comando para criar a distribuição
+Crie a distribuição, aplicando o seguinte comando:
+
 ``` bash
 python setup.py sdist bdist_wheel
 ```
