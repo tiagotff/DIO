@@ -24,7 +24,7 @@ pip install image_processing-test1
 ```
 
 ## Author
-
+>
 Original project: by Karina Kato
 This project: by Tiago de Freitas Faustino
 
