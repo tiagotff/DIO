@@ -10,7 +10,7 @@ Descição: O pacote image_processing-test1 é usado para:
 		- Ler imagem
 		- Salvar imagem
 		- Plotar imagem
-		- Resultado da trama
+		- Resultado da plotagem
 		- Plotar histograma
 ## Overview
 
