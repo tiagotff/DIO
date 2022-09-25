@@ -60,6 +60,7 @@ https://test.pypi.org/account/register/
 
 https://pypi.org/account/register/
 
+### Test Pypi
 #### 6.1. Primeiro, publique no Teste Pypi, aplicando o seguinte comando:
 ``` bash
 python -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*
@@ -68,6 +69,8 @@ python -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*
 ```bash
 pip install -i https://test.pypi.org/simple/ image-processing-test1
 ```
+
+### Pypi
 #### 6.3. Com tudo testado, é hora de publicar o pacote no Pypi:
 ```bash
 python -m twine upload --repository-url https://upload.pypi.org/legacy/ dist/*
