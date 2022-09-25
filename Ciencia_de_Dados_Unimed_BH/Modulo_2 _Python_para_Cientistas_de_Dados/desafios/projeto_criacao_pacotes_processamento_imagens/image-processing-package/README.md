@@ -66,7 +66,7 @@ python -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*
 ```
 #### 6.2. Agora, instale o pacote de teste:
 ```bash
-pip install –-index-url https://test.pypi.org/simple/ image-processing
+pip install –-index-url https://test.pypi.org/simple/ image-processing-test1
 ```
 #### 6.3. Com tudo testado, é hora de publicar o pacote no Pypi:
 ```bash
@@ -74,7 +74,7 @@ python -m twine upload --repository-url https://upload.pypi.org/legacy/ dist/*
 ```
 #### 6.4. Instale o pacote publicado:
 ```bash
-python -m pip install package_name
+python -m pip install image-processing-test1
 ```
 
 ## Instalação
