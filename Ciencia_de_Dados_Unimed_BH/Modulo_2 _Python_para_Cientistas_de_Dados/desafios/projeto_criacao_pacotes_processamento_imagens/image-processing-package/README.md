@@ -53,7 +53,7 @@ Crie a distribuição, aplicando o seguinte comando:
 python setup.py sdist bdist_wheel
 ```
 ### 6. Publicar pacote
-Realizada essas etapas com êxito, o próximo passo é a publicação do pacote.
+Realizada as etapas anteriores com êxito, o próximo passo é a publicação do pacote.
 Você precisa ter uma conta no Test Pypi e no Pypi para realizar essa etapa. A seguir os links:
 
 https://test.pypi.org/account/register/
