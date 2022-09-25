@@ -1,6 +1,6 @@
 # Projeto: Criação de pacote de Processamento de Imagens
 
-Descição: O pacote image_processing-test1 é usado para:
+Descrição: O pacote image_processing-test1 é usado para:
 >
 	Processing:
 		- Correspondência de histograma
