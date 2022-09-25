@@ -56,9 +56,9 @@ python setup.py sdist bdist_wheel
 Realizada as etapas anteriores com exito, o proximo passo e a publicacao do pacote.
 Voce precisa ter uma conta no Test Pypi e no Pypi para realizar essa etapa. A seguir os links:
 
-https://test.pypi.org/account/register/
+[Test Pypi](https://test.pypi.org/account/register/)
 
-https://pypi.org/account/register/
+[Pypi](https://pypi.org/account/register/)
 
 ### Test Pypi
 #### 6.1. Primeiro, publique no Teste Pypi, aplicando o seguinte comando:
@@ -81,10 +81,6 @@ Utilize o gerenciador de pacotes [pip](https://pip.pypa.io/en/stable/) para inst
 ```bash
 pip install image-exercise
 ```
-### Utilizando o pacote
-Neste link você encontra as imagens utilizadas
-
-E aqui você encontra o código para teste
 
 ## Autor
 
