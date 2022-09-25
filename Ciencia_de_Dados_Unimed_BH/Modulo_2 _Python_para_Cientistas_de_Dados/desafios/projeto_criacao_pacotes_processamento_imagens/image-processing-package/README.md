@@ -1,7 +1,6 @@
 # Projeto: Criação de pacote de Processamento de Imagens
 
-Description. 
-The package image_processing-test1 is used to:
+Description: The package image_processing-test1 is used to:
 >
 	Processing:
 		- Histogram matching
