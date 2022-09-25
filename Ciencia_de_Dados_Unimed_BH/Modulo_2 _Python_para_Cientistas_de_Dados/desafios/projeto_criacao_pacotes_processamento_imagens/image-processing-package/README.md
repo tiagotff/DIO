@@ -28,6 +28,7 @@ Após criado o projeto e editado os arquivos "setup.py", "requirements.txt" e "R
 Para isso, você deve:
 
 ### 3. Acessar a raiz do seu projeto
+Acesse a raiz do seu projeto para aplicar os próximos passos.
 
 ### 4. Aplicar os comandos de instalação
 ``` bash
