@@ -19,3 +19,5 @@ Cada um desses desafios foi organizado por seções, contendo, portanto:
 - Exemplos
 
 - Resolução entregue no desafio
+
+- Alternativas propostas
