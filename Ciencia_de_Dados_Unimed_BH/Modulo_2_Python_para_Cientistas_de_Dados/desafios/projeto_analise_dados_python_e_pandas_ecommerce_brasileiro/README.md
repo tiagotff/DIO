@@ -8,13 +8,13 @@ A partir de um conjunto de dados público do comércio eletrônico brasileiro de
 4) Aplicar Análise Exploratória de Dados (produto de dados 1); e,
 5) Desenvolver um dashboard (produto de dados 2).
 
-## Tenologias utilizadas:
+## Tenologias utilizadas
 
 - Google Colaboratory (Colab), para atendimento dos itens 1, 2, 3 e 4.
 
 - Google Data Studio, para atendimento do item 5.
 
-## Materiais produzidos:
+## Materiais produzidos
 
 Cópia do código desenvolvido: https://colab.research.google.com/drive/14495ZkKsSjJSpLn-GU4-4XZzvMeMWubo?usp=sharing#scrollTo=3pAeKoigvnG0
 
