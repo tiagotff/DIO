@@ -31,6 +31,8 @@ Para isso, você deve:
 Acesse a raiz do seu projeto para aplicar os próximos passos.
 
 ### 4. Aplicar os comandos de instalação
+No seu terminal, aplique os seguintes comandos:
+
 ``` bash
 python -m pip install --upgrade pip
 ```
