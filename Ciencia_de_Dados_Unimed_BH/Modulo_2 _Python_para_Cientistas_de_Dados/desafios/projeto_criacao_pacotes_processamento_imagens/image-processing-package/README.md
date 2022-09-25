@@ -12,7 +12,7 @@ Descrição: O pacote image_processing-test1 é usado para:
 		- Plotar imagem
 		- Resultado da plotagem
 		- Plotar histograma
-## Overview
+## Overview (template)
 
 ![image](https://user-images.githubusercontent.com/53586684/192152925-fc3e9713-f07a-4bf9-befb-828fd46e7c0d.png)
 
