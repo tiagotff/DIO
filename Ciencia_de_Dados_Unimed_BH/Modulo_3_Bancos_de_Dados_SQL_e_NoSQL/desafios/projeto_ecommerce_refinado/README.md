@@ -27,8 +27,7 @@ Contudo, estes podem ter vendedores distintos(terceiros).
 ...Pensado junto com a professora durante a video-aula.
 
 
-## Refinando
->
+## Refinando ...>
 ### Solicitação:
 - Cliente PJ e PF - Uma conta pode ser PJ ou PF, mas não pode ter as duas informações
 
