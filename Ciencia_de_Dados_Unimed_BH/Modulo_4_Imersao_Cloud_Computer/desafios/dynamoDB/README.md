@@ -2,7 +2,7 @@
 
 ### **Arquitetura**
 
-![Alt text](../../../../../../../../../c:/Users/Tiago/Desktop/DIO/Ciencia_de_Dados_Unimed_BH/Modulo_4_Imersao_Cloud_Computer/desafios/dynamoDB/Arquitetura.png)
+![Alt text](https://github.com/tiagotff/DIO/blob/main/Ciencia_de_Dados_Unimed_BH/Modulo_4_Imersao_Cloud_Computer/desafios/dynamoDB/Arquitetura.png)
 
 ### **Serviço utilizado**
   - Amazon DynamoDB
