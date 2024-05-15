@@ -2,4 +2,4 @@
 
 Este projeto reúne os principais comandos aprendidos sobre Git e GitHub.
 
-Ao final do arquivo, você encontra um **Overview** com alguns dos comandos mais frequentemente aplicados durante o curso.
+No arquivo "Comandos_Git_Dio.txt", você encontra um **overview** com alguns dos comandos mais frequentemente aplicados durante o curso.
