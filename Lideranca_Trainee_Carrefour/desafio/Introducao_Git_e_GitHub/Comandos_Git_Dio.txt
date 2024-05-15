@@ -1,5 +1,4 @@
-
-Principais anotações
+# Principais anotações
 
 
 GUI: Graphical User Interface
@@ -15,7 +14,7 @@ CLI: Command Line Interface
 *************************************************************************************************
 *************************************************************************************************
 
->>> Comandos básicos de navegação no terminal
+# Comandos básicos de navegação no terminal
 
 Windows
   cd
@@ -37,7 +36,6 @@ Windows
   rmdir <nome da pasta> /S /Q: Ex.: rmdir workspace /S /Q : vai deletar o que está dentro da pasta
 
   echo <texto> > <nome do arquivo.extensão> Ex.: echo hello > hello.txt
-
 
 
 Unix
@@ -63,12 +61,12 @@ Unix
 *************************************************************************************************
 *************************************************************************************************
 
->>> Git Bash
+# Git Bash
 
 openssl sha1 <nome do arquivo.extensão> Ex.: openssl sha1 texto.txt
 
 
->>> Chaves SSH
+# Chaves SSH
 
 Git Bash
   ssh-keygen -t ed25519 -C <email>
@@ -87,7 +85,7 @@ Git Bash
 senha, se houver
 
 
->>> Tokens
+# Tokens
 
 GitHub
 Perfil > settings > SSH and GPC Keys > Developer settings > Personal accesss tokes > Generate New token
@@ -97,7 +95,7 @@ Para clone do repositório, utilize o protocolo HTTPS
 *************************************************************************************************
 *************************************************************************************************
 
-Comandos Git
+# Comandos Git
 
   mkdir <nome da pasta>
   ls
@@ -125,9 +123,9 @@ Comandos Git
   mv strognoff.md ./receitas/          --> movendo arquivo 'strognoff.md' para a pasta 'receitas'
 
 
-GitHub
+# GitHub
 
-Algumas configurações para quando o e-mail for diferente
+## Algumas configurações para quando o e-mail for diferente
 
   git congig --list
 
@@ -151,10 +149,8 @@ Após criar repositório no GitHub
 *************************************************************************************************
 *************************************************************************************************
 
+# Overview
 
-*********
-Overview
-*********
 
   git status
 
