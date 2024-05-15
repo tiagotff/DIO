@@ -1,6 +1,6 @@
 # Bootcamps da DIO
 
-Repositório destinado ao armazenamento e compartilhamento de exercícios, soluções e alternativas propostas pelos bootcamps realizados.
+Repositório destinado ao armazenamento e compartilhamento de exercícios, soluções e alternativas propostas pelos bootcamps realizados na Digital Innovation One (DIO).
 
 ## Bootcamps já realizados
 
