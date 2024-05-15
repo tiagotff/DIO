@@ -1,6 +1,6 @@
 # Bootcamps da DIO
 
-Repositório destinado ao armazenamento e compartilhamento de exercícios, soluções e alternativas propostas pelos bootcamps realizados na DIO.
+Repositório destinado ao armazenamento e compartilhamento de exercícios, soluções e alternativas propostas pelos bootcamps realizados.
 
 ## Bootcamps já realizados
 
